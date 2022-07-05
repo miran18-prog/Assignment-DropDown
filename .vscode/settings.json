@@ -1,0 +1,6 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": false,
+    "workbench.preferredLightColorTheme": "Default Light+",
+    "explorer.enableUndo": true
+}

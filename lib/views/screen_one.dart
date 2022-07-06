@@ -100,7 +100,7 @@ class _FileOneState extends State<FileOne> {
                 child: FutureBuilder<KurdishNames>(
                   future: _kurdishNameServices.fetchListNames(
                       gV, initLimit.toString(), initPn),
-                  builder: (context, AsyncSnapshot<KurdishNames> snapshot) {
+                  builder: (context, snapshot) {
                     if (snapshot.connectionState == ConnectionState.waiting) {
                       return CircularProgressIndicator();
                     } else if (snapshot.hasError) {
